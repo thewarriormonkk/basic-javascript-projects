@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: rgb(58, 58, 58);
+}
+
+#banner {
+  background-color: #0078d4;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#clock {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  background: rgb(243, 199, 56);
+  border-radius: 5px;
+}
+
+.center {
+  text-align: center;
+}
